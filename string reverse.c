@@ -1,7 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    char s[10];
-    scanf("%s",&s[10]);
-    printf("%s",s[10]);
+    char str[100],i,j;
+    ///scanf("%s", &str);
+    gets(str);
+    strrev(str);
+    printf("%s\n", str);
+    return 0;
+
 }

@@ -1,11 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    char name[20]="MD. Rakib Mia";
-    printf("My name is %s \n", name);
-
-    name[6]= 'z';
-    printf("My name is %s\n ", name);
+    char st[15];
+    printf("Enter your name : ");
+    scanf("%s",&st);
+    printf("Your name is %s",st);
     return 0;
 }
-

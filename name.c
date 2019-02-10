@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main()
 {
-    char name[20]="MD. Rakib Mia";
-    printf("My name is %s ", name);
+    printf("My name is Rakib");
     return 0;
 }
