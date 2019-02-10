@@ -1,17 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    int num = 1;
-
-    do{
-        if(num==5 || num==8)
-        {
-            num++;
-            continue;
-        }
-       printf("%d  is available. \n",num);
-         num++;
-}while (num<=10);
-
-   return 0;
+    int x;
+    for(x=1;x<=20;x++)
+    {
+        if((x%2==0)){
+          continue;}
+          printf("%d\n",x);
+    }
+    return 0;
 }
+
