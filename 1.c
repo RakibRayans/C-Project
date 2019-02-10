@@ -1,17 +1,14 @@
 #include<stdio.h>
-
-int main()
+int main ()
 {
-    int i,j,n;
-    printf("enter how many line: ");
+    int i,n,sum=0;
+    printf ("inter how many numbers: ");
     scanf("%d",&n);
-    for(i=n;i>=1;i--)
-    {
-        for(j=1;j<=i;j++)
-        {
-            printf("%4d",j);
-        }
-        printf("\n");
-    }
+    for(i=1;i<=n;i++)
+
+        sum=sum+(i+4)*(i+5)*(i+6);
+        printf("%d\n",sum);
+
+   // printf("sum= %d",sum);
     return 0;
 }

@@ -1,5 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    printf("%s is the best %s ever\n",  "Rakib",  "programer" );
+    int n;
+    printf("enter any number: ");
+    scanf("%d",&n);
+    switch(n)
+    {
+        case 1:
+            printf("1>>9");
+    }
+   return 0;
+
 }
